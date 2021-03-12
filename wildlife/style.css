@@ -6,6 +6,7 @@ body {
 
 p,
 h2,
+h3,
 a,
 button {
     font-family: 'Open Sans', sans-serif;
@@ -108,13 +109,14 @@ h2 {
 }
 
 main {
+    height: 1368px;
     background-color: #cccccc;
     padding-top: 1px;
 }
 
 .latest-articles {
     margin-top: 109px;
-    margin-bottom: 239px;
+    margin-bottom: 123px;
     text-align: center;
 }
 
@@ -145,6 +147,7 @@ main {
     padding: 0;
     background: none;
     border: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .arrow {
@@ -174,4 +177,47 @@ figcaption p {
     margin-top: 10px;
     font-size: 17px;
     line-height: 27px;
+}
+
+.get-notified {
+    text-align: center;
+    margin-bottom: 240px;
+}
+
+.get-notified-title {
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+}
+
+.inp-email {
+    width: 540px;
+    height: 60px;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    background: none;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 16px;
+}
+
+.btn-submit {
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
 }
