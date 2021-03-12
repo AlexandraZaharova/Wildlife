@@ -34,6 +34,10 @@ header {
     margin-bottom: 110px;
 }
 
+.logo {
+    width: 237px;
+}
+
 .logo-link {
     width: 223px;
     display: flex;
@@ -47,21 +51,29 @@ h1 {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 478px;
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
-.header-nav-link {
+.nav li {
     font-size: 23px;
     color: #F7F7F7;
 }
 
 a {
     text-decoration: none;
+}
+
+.nav li a {
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
 }
 
 .header-nav-btn {
@@ -109,7 +121,7 @@ h2 {
 }
 
 main {
-    height: 1368px;
+    height: 1364px;
     background-color: #cccccc;
     padding-top: 1px;
 }
@@ -220,4 +232,29 @@ form {
     line-height: 27px;
     color: #F7F7F7;
     font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    height: 360px;
+    background-color: #181617;
+    background-image: url("assets/footer-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 360px;
+}
+
+.nav-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 240px;
+    padding-left: 0;
 }
