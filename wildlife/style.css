@@ -4,6 +4,13 @@ body {
     padding: 0;
 }
 
+p,
+h2,
+a,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .header {
     height: 780px;
     margin: 0 auto;
@@ -23,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 110px;
 }
 
 .logo-link {
@@ -35,6 +43,7 @@ h1 {
     text-transform: uppercase;
     color: #F7F7F7;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-nav {
@@ -46,7 +55,6 @@ h1 {
 }
 
 .header-nav-link {
-    font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     color: #F7F7F7;
 }
@@ -58,7 +66,6 @@ a {
 .header-nav-btn {
     width: 120px;
     height: 50px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     color: #F7F7F7;
     border: 2px solid #CD6326;
@@ -66,4 +73,39 @@ a {
     background: none;
     box-sizing: border-box;
 }
+
+.survival {
+    width: 274px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.survival-title {
+    color: #CD6326;
+    letter-spacing: 2px;
+    line-height: 72px;
+    margin-bottom: 51px;
+}
+
+.survival-text {
+    font-size: 18px;
+    color: #F7F7F7;
+    line-height: 27px;
+    margin-bottom: 48px;
+}
+
+.survival-btn {
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+
 
