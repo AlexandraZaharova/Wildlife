@@ -24,14 +24,14 @@
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacts</a></li>
             <li><a href="#"><img class="header-nav-search" src="assets/search.svg" alt="search"></a></li>
-            <li><button class="header-nav-btn">Sign in</button></li>
+            <li><button class="header-nav-btn without-background">Sign in</button></li>
           </ul>
         </nav>
       </header>
       <div class="survival">
         <h2 class="survival-title">Survival</h2>
         <p class="survival-text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
-        <button class="survival-btn">Donate</button>
+        <button class="survival-btn with-background">Donate</button>
       </div>
     </div>
   </div>
@@ -41,7 +41,10 @@
         <h2 class="latest-articles-title">Latest articles</h2>
         <p class="latest-articles-text">Breaking news from the wild</p>
         <div class="slider">
-          <button class="btn-arrow"><img class="arrow" src="assets/left.svg" alt="left arrow"></button>
+          <button class="btn-arrow">
+            <img class="arrow" src="assets/left.svg" alt="left arrow">
+            <img class="leftHover" src="assets/leftHover.svg" alt="left  arrow">
+          </button>
           <figure>
             <img class="slider-card" src="assets/deer.jpg" alt="Deer">
             <figcaption class="description-left">
@@ -63,14 +66,17 @@
               <p class="card-text">Birds Fight club</p>
             </figcaption>
           </figure>
-          <button class="btn-arrow"><img class="arrow" src="assets/right.svg" alt="right  arrow"></button>
+          <button class="btn-arrow">
+            <img class="arrow" src="assets/right.svg" alt="right  arrow">
+            <img class="rightHover" src="assets/rightHover.svg" alt="right  arrow">
+          </button>
         </div>
       </section>
       <section class="get-notified">
         <h3 class="get-notified-title">Get notified about new amazing articles</h3>
         <form action="#">
           <input class="inp-email" type="email" placeholder="Email">
-          <input class="btn-submit" type="submit" value="Send">
+          <input class="btn-submit with-background" type="submit" value="Send">
         </form>
       </section>
     </div>
@@ -80,7 +86,7 @@
       <div class="logo">
         <a href="#" class="logo-link">
           <img src="assets/logo.svg" alt="logo" width="70">
-          <h1>wildlife</h1>
+          <h2 class="h1">wildlife</h2>
         </a>
       </div>
       <nav>
@@ -92,10 +98,18 @@
       </nav>
       <address>
         <ul class="nav-address">
-          <li><a href="#"><img src="assets/fb.svg" alt="fb"></a></li>
-          <li><a href="#"><img src="assets/inst.svg" alt="instagram"></a></li>
-          <li><a href="#"><img src="assets/pin.svg" alt="pin"></a></li>
-          <li><a href="#"><img src="assets/telegram.svg" alt="telegram"></a></li>
+          <li>
+            <a href="#"><div class="address-link fb"></div></a>
+          </li>
+          <li>
+            <a href="#"><div class="address-link instagram"></div></a>
+          </li>
+          <li>
+            <a href="#"><div class="address-link pin"></div></a>
+          </li>
+          <li>
+            <a href="#"><div class="address-link telegram"></div></a>
+          </li>
         </ul>
       </address>
     </div>
