@@ -142,10 +142,11 @@ h2 {
 }
 
 .survival-title {
+    margin-bottom: 51px;
     color: #CD6326;
     letter-spacing: 2px;
     line-height: 72px;
-    margin-bottom: 51px;
+    font-weight: 400;
 }
 
 .survival-text {
@@ -316,7 +317,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 360px;
+    height: 359px;
 }
 
 .nav-address {
